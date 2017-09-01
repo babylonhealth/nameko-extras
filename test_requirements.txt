@@ -1,0 +1,6 @@
+-r requirements.txt
+flake8==3.4.1
+pep8-naming==0.4.1
+zest.releaser==6.12.2
+pytest==3.2.1
+pytest-cov==2.5.1

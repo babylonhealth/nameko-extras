@@ -15,7 +15,7 @@ with open('requirements.txt') as f:
 
 setup(
     name='nameko-extras',
-    version='0.1.1',
+    version='0.1.2.dev0',
     packages=find_packages('src', exclude=('tests',)),
     package_dir={'': 'src'},
     include_package_data=True,

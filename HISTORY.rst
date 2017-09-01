@@ -3,7 +3,7 @@
 Release History
 ---------------
 
-0.1.1 (unreleased)
+0.1.1 (2017-09-01)
 ++++++++++++++++++
 
 - Fix incorrect package description.

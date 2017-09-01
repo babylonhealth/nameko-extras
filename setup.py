@@ -20,15 +20,14 @@ setup(
     package_dir={'': 'src'},
     include_package_data=True,
     zip_safe=False,
-    description='Parse Accept-Language HTTP header',
+    description='Nameko run with autoloading, logging file CLI option',
     author='Richard O\'Dwyer',
     author_email='richard@richard.do',
     maintainer='Chatbot Developers',
-    keywords='python, accept-language, parse, headers',
     maintainer_email='chatbot-developers@babylonhealth.com',
     license='Apache License 2.0',
     long_description=(
-        'https://github.com/Babylonpartners/parse-accept-language'
+        'https://github.com/Babylonpartners/nameko-extras'
     ),
     entry_points={
         'console_scripts': [

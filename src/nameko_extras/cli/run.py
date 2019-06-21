@@ -20,7 +20,7 @@ def main(args):
 
     if args.config:
         with open(args.config) as fle:
-            config = yaml.load(fle)
+            config = yaml.load(fle, Loader=yaml.UnsafeLoader)
     else:
         config = {
             AMQP_URI_CONFIG_KEY: args.broker

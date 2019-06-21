@@ -10,7 +10,9 @@ from nameko_extras import autoreload
 from mock import patch, Mock
 
 
-config = {AMQP_URI_CONFIG_KEY: 'pyamqp://guest:guest@localhost'}
+config = {
+    AMQP_URI_CONFIG_KEY: 'pyamqp://guest:${RABBITMQ_PASSWORD:guest}@localhost'
+}
 
 
 @patch('nameko_extras.autoreload._reloader')
